@@ -1,0 +1,38 @@
+{
+	"name": "hello-svelte",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"format": "prettier-eslint \"src/**/*.ts\" \"src/**/*.svelte\" --write",
+		"lint": "eslint .",
+		"clean": "rimraf dist"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^2.2.0",
+		"@tsconfig/svelte": "^4.0.1",
+		"@types/node": "^20.1.7",
+		"@typescript-eslint/eslint-plugin": "^5.59.6",
+		"eslint": "^8.0.1",
+		"eslint-config-standard-with-typescript": "^34.0.1",
+		"eslint-plugin-import": "^2.25.2",
+		"eslint-plugin-n": "^15.0.0",
+		"eslint-plugin-promise": "^6.0.0",
+		"eslint-plugin-svelte": "^2.28.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"prettier": "^2.8.8",
+		"prettier-eslint": "^15.0.1",
+		"prettier-eslint-cli": "^7.1.0",
+		"prettier-plugin-svelte": "^2.10.0",
+		"rimraf": "^5.0.0",
+		"svelte": "^3.59.1",
+		"svelte-check": "^3.3.2",
+		"tslib": "^2.5.0",
+		"typescript": "^5.0.4",
+		"vite": "^4.3.7"
+	}
+}
